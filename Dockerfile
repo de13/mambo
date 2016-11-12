@@ -1,4 +1,5 @@
 FROM centos:7
+MAINTAINER de13 <stephane.beuret@data-essential.com>
 RUN yum update -y && \
     yum install -y epel-release mod_wsgi && \
     yum install -y https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-centos96-9.6-3.noarch.rpm && \
